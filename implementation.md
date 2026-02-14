@@ -5,9 +5,10 @@ This guide provides a comprehensive walkthrough of the iGuide project, from envi
 ## Visual Overview
 
 <p align="center">
-  <img src="assets/Screenshot_20260214-194309.png" width="150" alt="Splash">
-  <img src="assets/Screenshot_20260214-194326.png" width="150" alt="IMEI Entry">
-  <img src="assets/Screenshot_20260214-194337.png" width="150" alt="Emergency Steps">
+  <img src="assets/Screenshot_20260214-024721.png" width="150" alt="Splash">
+  <img src="assets/Screenshot_20260214-194309.png" width="150" alt="IMEI Entry">
+  <img src="assets/Screenshot_20260214-194326.png" width="150" alt="Emergency Steps">
+  <img src="assets/Screenshot_20260214-194337.png" width="150" alt="Contacts">
   <img src="assets/Screenshot_20260214-194346.png" width="150" alt="Settings">
 </p>
 

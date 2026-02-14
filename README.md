@@ -5,10 +5,11 @@ iGuide is a simple but powerful mobile application designed to help users prepar
 ## App Screenshots
 
 <p align="center">
-  <img src="assets/Screenshot_20260214-194309.png" width="200" alt="Splash Screen">
-  <img src="assets/Screenshot_20260214-194326.png" width="200" alt="IMEI Entry">
-  <img src="assets/Screenshot_20260214-194337.png" width="200" alt="Emergency Steps">
-  <img src="assets/Screenshot_20260214-194346.png" width="200" alt="Settings">
+  <img src="assets/Screenshot_20260214-024721.png" width="150" alt="Splash">
+  <img src="assets/Screenshot_20260214-194309.png" width="150" alt="IMEI Entry">
+  <img src="assets/Screenshot_20260214-194326.png" width="150" alt="Emergency Steps">
+  <img src="assets/Screenshot_20260214-194337.png" width="150" alt="Contacts">
+  <img src="assets/Screenshot_20260214-194346.png" width="150" alt="Settings">
 </p>
 
 ## Key Features

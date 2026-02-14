@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'screens/splash_screen.dart';
-import 'widgets/pin_lock_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -25,7 +24,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       // Wrap the app with PinLockScreen to handle security
-      home: const PinLockScreen(child: SplashScreen()),
+      home: const SplashScreen(),
     );
   }
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'imei_entry_screen.dart';
+import '../widgets/pin_lock_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -16,7 +17,9 @@ class _SplashScreenState extends State<SplashScreen> {
     Future.delayed(const Duration(seconds: 2), () {
       if (mounted) {
         Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (context) => const IMEIEntryScreen()),
+          MaterialPageRoute(
+            builder: (context) => const PinLockScreen(child: IMEIEntryScreen()),
+          ),
         );
       }
     });

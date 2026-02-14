@@ -1,6 +1,17 @@
 # iGuide Implementation Guide
 
-This guide provides a comprehensive walkthrough of the iGuide project, from environment setup to core module architecture. Follow these steps to rebuild or extend the application.
+This guide provides a comprehensive walkthrough of the iGuide project, from environment setup to core module architecture.
+
+## Visual Overview
+
+<p align="center">
+  <img src="assets/Screenshot_20260214-194309.png" width="150" alt="Splash">
+  <img src="assets/Screenshot_20260214-194326.png" width="150" alt="IMEI Entry">
+  <img src="assets/Screenshot_20260214-194337.png" width="150" alt="Emergency Steps">
+  <img src="assets/Screenshot_20260214-194346.png" width="150" alt="Settings">
+</p>
+
+Follow these steps to rebuild or extend the application.
 
 ## 1. Development Environment Setup
 

@@ -2,6 +2,15 @@
 
 iGuide is a simple but powerful mobile application designed to help users prepare for and manage phone theft emergencies. It allows users to store critical phone information securely and provides a clear guide on the steps to take if their phone is stolen.
 
+## App Screenshots
+
+<p align="center">
+  <img src="assets/Screenshot_20260214-194309.png" width="200" alt="Splash Screen">
+  <img src="assets/Screenshot_20260214-194326.png" width="200" alt="IMEI Entry">
+  <img src="assets/Screenshot_20260214-194337.png" width="200" alt="Emergency Steps">
+  <img src="assets/Screenshot_20260214-194346.png" width="200" alt="Settings">
+</p>
+
 ## Key Features
 
 - **Store IMEI and Phone Details**: Keep your phone's unique identification number and description safe within the app.

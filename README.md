@@ -51,3 +51,15 @@ iGuide is a simple but powerful mobile application designed to help users prepar
   ```bash
   flutter build ios
   ```
+
+## Challenges Encountered
+
+- **App Branding Caching**: Changing the app icon and splash screen didn't immediately reflect in the build. This was due to both Flutter's build cache and deep OS-level caching on Android.
+- **Mobile Responsiveness**: Designing a premium web landing page that looks equally good on desktop and high-density mobile screens required specific attention to CSS breakpoints and touch-friendly interaction patterns.
+- **Native Configuration**: Managing native platform code for splash screens across Android 12+ (Adaptive Icons) and earlier versions while maintaining a consistent brand identity.
+
+## Solutions Implemented
+
+- **Branding Refresh**: Used `flutter_launcher_icons` and `flutter_native_splash` to programmatically generate all required platform-specific assets. Followed this with `flutter clean` and full app uninstallation to force the OS to refresh cached icons.
+- **Responsive Landing Page**: Built a standalone `website/` directory using modern Vanilla CSS with a mobile-first approach. Implemented vertical stacking and full-width buttons for smaller viewports (under 576px).
+- **Automated APK Delivery**: Integrated a direct APK download link on the landing page by copying the release build into the website deployment folder, ensuring a seamless user acquisition flow.

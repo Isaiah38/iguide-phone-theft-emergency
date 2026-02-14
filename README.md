@@ -51,7 +51,3 @@ iGuide is a simple but powerful mobile application designed to help users prepar
   ```bash
   flutter build ios
   ```
-
-## Security Note
-
-The PIN lock feature provides a layer of security within the app. However, it is always recommended to use system-level locks (biometrics, passcodes) on your mobile device for maximum protection.
